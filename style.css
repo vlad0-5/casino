@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin:  0;
+ }
+ html{
+    height: 1100px;
+    background-image:url(  https://i.pinimg.com/564x/c7/c4/be/c7c4be6baa51dd6da289181f65d20ab5.jpg);
+    background-size: 1500px;
+    background-attachment: fixed;
+}
+body{
+    height: 1300px;
+    width:  950px;
+    margin: auto;
+    border: 0;
+    padding: 0;
+ 
+}
+header{
+    background-color: rgba(21, 22, 22, 0.856);
+    height: 80px;
+    width:  950px;
+   
+
+ }
+ header h1{
+    color: rgba(223, 235, 226, 0.993);
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Shadows Into Light', cursive;
+ }
+ 
+ nav{
+    overflow: hidden;
+    background:#01383a96 ;
+    height: 20px;
+    width: 98%;
+    padding: 10px;
+ }
+ nav a{
+    color: rgba(254, 254, 255, 0.966);
+    text-align: center;
+    padding: 20px ;
+    text-decoration: none; 
+    line-height: 10px;
+    border-radius: 4px;
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+ }
+ nav a:hover {
+   background-color: rgba(7, 71, 247, 0.781);
+   color: rgb(253, 245, 245);
+ }
+ #ejer1{
+    background-color: rgba(19, 20, 20, 0.712);
+    height: 1000px;
+    width: 950px;
+ }
+ #ejer1 h2{
+    text-align: center;
+    color: rgba(223, 235, 226, 0.993);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Shadows Into Light', cursive;
+
+ }
+ #ejer1 h4{
+   text-align: center;
+   color: rgba(223, 235, 226, 0.993);
+   padding-left: 50px;
+   padding-right: 50px;
+   font-family: 'Dancing Script', cursive;
+   font-family: 'EB Garamond', serif;
+   font-family: 'Island Moments', cursive;
+   font-family: 'Shadows Into Light', cursive;
+
+}
+ #ejer1 h1{
+    text-align: center;
+    color: rgba(223, 235, 226, 0.993);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Shadows Into Light', cursive;
+
+ }
+ #nro1{
+    padding: 15px;
+    margin: 60px;
+    text-align: center;
+    color: #1f1918;
+    font-size: 24px;
+ }
+
+ #calculadora{
+    background-color:  rgba(62, 132, 134, 0.712);
+    height: 1350px;
+    width: 950px;
+
+ }
+ #calculadora h1{
+    text-align: center;
+    color: rgba(223, 235, 226, 0.993);
+    padding: 40px; 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(22, 29, 122, 0.425);
+ }
+ #teoria{
+    width: 550px;
+    height: 1200px;
+    float: left;
+    background-color: #277e7859;
+ }
+ #teoria h1{
+    text-align: center;
+    color: rgba(223, 235, 226, 0.993);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(22, 29, 122, 0.425);
+ }
+
+ #teoria h2{
+    text-align: center;
+    color: rgba(223, 235, 226, 0.993);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Shadows Into Light', cursive;
+
+ }
+ #formulario{
+    width: 400px;
+    height: 1200px;
+    float: right;
+    background-color: rgba(0, 255, 255, 0.082);
+ }
+ #formulario h1{
+    background-color:  rgba(22, 29, 122, 0.425);
+ }
+ #nro2{
+    padding: 15px;
+    margin: 40px;
+    text-align: center;
+    color: #1f1918;
+    font-size: 24px;
+ }
+
+
+
+
+
+
+
+
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+#app {
+  width: 100%;
+  height: 900px;
+
+  background-image: url( https://i.pinimg.com/736x/90/e2/be/90e2bead4373a54815fbdbc15a8b5daa.jpg);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.doors {
+  display: flex;
+}
+
+.door {
+  background: #fafafa;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.4) inset;
+
+  width: 100px;
+  height: 150px;
+  overflow: hidden;
+
+  border-radius: 1ex;
+  margin: 1ch;
+}
+
+.boxes {
+ 
+  transition: transform 1s ease-in-out;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3rem;
+}
+
+.buttons {
+  margin: 1rem 0 2rem 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: #885f06;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #fafafa;
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+.info {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-image: url(https://i.pinimg.com/564x/da/6d/de/da6dde9c87bd8d62c9549e497e9d92c7.jpg);
+    padding: 20px;
+     
+}
+.container h2,h1{
+    color: #fafafa;
+}
+
+
+
+.ejercicio4{
+    height: 2800px;
+    background-color: #885f06;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/564x/22/d7/3a/22d73a200540915e0ae96f1f9e35a00c.jpg);
+    padding: 2em;
+}
+.ejercicio4 h1,h2{
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+
+.ejercicio15{
+   height: 3000px;
+   background-color: #885f06;
+   background-image: url(https://i.pinimg.com/564x/ea/01/78/ea01781188436c370f87c9ed67b0a81a.jpg);
+   background-size: cover;
+   padding: 2em;
+
+}
+
+.ejercicio15 h1,h2{
+   text-align: center;
+   color: #fafafa;
+   font-family: 'Dancing Script', cursive;
+   font-family: 'EB Garamond', serif;
+   font-family: 'Island Moments', cursive;
+   font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+.ejercicio4 input,button{
+   float: center;
+}
+
+#resp{
+   color: #fafafa;
+   font-size:30px; 
+   float: center;
+}
+
+#respon{
+   color: #fafafa;
+   font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sd {
+    table-layout: fixed;
+    border: rgb(94, 94, 69) 3px solid;
+    width: 355px;
+    height: 355px;
+    background-color: #fff;
+    vertical-align: middle;
+    border-collapse: collapse;
+    text-align: center;
+}
+.big {
+    FONT-SIZE: 25px;
+    border: none;
+    background-color: transparent;
+    WIDTH: 50px;
+    HEIGHT: 50px;
+    LINE-HEIGHT: 28px;
+    TEXT-ALIGN: center;
+    margin: 0px;
+    COLOR: #3636e0;
+    FONT-FAMILY: Verdana;
+}
+td.xx {
+    border-right: #999 1px solid;
+    border-top: #999 1px solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    LINE-height: 30px;
+}
+td.rr {
+    border-right: #443 2px solid;
+    border-top: #999 1px solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    LINE-height: 30px;
+}
+td.top {
+    border-right: #999 1px solid;
+    border-top: #443 2px solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    LINE-height: 30px;
+}
+td.topr {
+    border-right: #443 2px solid;
+    border-top: #443 2px solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    LINE-height: 30px;
+}
+
+#respuesta{
+    color: rgb(248, 241, 241);
+    font-size: 30px;
+}
